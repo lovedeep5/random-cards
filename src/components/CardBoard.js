@@ -61,7 +61,11 @@ export default function CardBoard() {
                 <div className="inner">
                   <span className="card-suit-value py-3 d-block text-center display-6">{`${card.value} of ${card.suit}`}</span>
                   <div className="card-container d-block text-center">
-                    <img src={card.image} alt="card-image" />
+                    <img
+                      src={card.image}
+                      alt="card-image"
+                      className="img-fluid card"
+                    />
                   </div>
                   <div className="new-card-button py-3 d-block text-center">
                     <button
