@@ -64,7 +64,7 @@ export default function CardBoard() {
                     <img
                       src={card.image}
                       alt="card-image"
-                      className="img-fluid card"
+                      className="img-fluid cards"
                     />
                   </div>
                   <div className="new-card-button py-3 d-block text-center">
